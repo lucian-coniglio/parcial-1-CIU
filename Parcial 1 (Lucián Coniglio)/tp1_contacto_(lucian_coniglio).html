@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TP1 CIU (contacto)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="general_stylesheet.css">
+  <link rel="stylesheet" href="stylesheet_contacto.css">
+  <script src="js_contacto.js"></script>
+</head>
+<body>
+  <header id="header">
+    <a class="index btn" href="tp1_index_(lucian_coniglio).html">Volver al índice</a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><button class="btn btn-default" type="button" onclick="temaOscuro()">Cambiar tema a oscuro</button></li>
+      <li class="nav-item"><button class="btn btn-default" type="button" onclick="temaClaro()">Cambiar tema a claro</button></li>
+    </ul>
+    <h1 class="text-center">Sirvancio</h1>
+    <h6 class="text-center">Hamburguesería</h3>
+    <nav class="navbar">
+      <div class="container-fluid justify-content-center">
+        <ul id="navegador" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-center" href="tp1_menu_(lucian_coniglio).html">Ir al menú principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="tp1_platos_(lucian_coniglio).html">Nuestras hamburguesas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center disabled" href="#">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <article id="articulo">
+    <h3>Nos interesa saber tu opnión</h3>
+    <form id="formulario">
+      <div class="mb-3 mt-3">
+      <label for="email">Tu correo electrónico?</label>
+      <input type="email" class="form-control escritura" id="email" placeholder="Introducir email" name="email">
+      </div>
+      <p>Qué te pareció la comida?</p>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="muy_positivo" name="comida" value="excelente">
+        <label class="form-check-label" for="muy_positivo">Increíble!!</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="positivo" name="comida" value="bien">
+        <label class="form-check-label" for="positivo">Nada mal!</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="regular" name="comida" value="regular">
+        <label class="form-check-label" for="regular">Podría haber salido mejor</label>
+      </div>
+    <p>Cómo fue el servicio en el local (si es que fuiste)?</p>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="satisfactorio" name="servicio" value="excelente">
+      <label class="form-check-label" for="satisfactorio">Como deidades!!</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="decente" name="servicio" value="bien">
+      <label class="form-check-label" for="decente">Buen Servicio!</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="mejorable" name="servicio" value="regular">
+      <label class="form-check-label" for="mejorable">Hubo algunos problemas</label>
+    </div>
+    <p>Recomendarías este restaurante a tus amigos y/o familia?</p>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="definitivamente" name="recomendar" value="excelente">
+      <label class="form-check-label" for="definitivamente">Por Supuesto!!</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="probablemente" name="recomendar" value="bien">
+      <label class="form-check-label" for="probablemente">Probablemente!</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="no_creo" name="recomendar" value="regular">
+      <label class="form-check-label" for="no_creo">No creo que les guste</label>
+    </div>
+      <div class="mb-3 mt-3">
+        <label for="comment">Cómo podemos mejorar nuestro servicio?</label>
+        <textarea class="form-control escritura" rows="5" id="comment" name="text"></textarea>
+      </div>
+      <button type="submit" onclick="subir()" class="btn btn-primary">Subir</button>
+    </form>
+  </article>
+  <footer id="footer">
+    <h4>Encuéntranos en...</h4>
+      <ul id="lista_redes" class="list-group list-group-flush">
+        <li class="list-group-item list-group-item-primary"> Facebook</li>
+        <li class="list-group-item list-group-item-danger"> Instagram</li>
+      </ul>
+    <!-- AVISO: La ubicación es intencionalmente imprecisa -->
+    <img src="https://www.trafictec.com/images/google_maps02.png" class="img-thumbnail" alt="Mapa al local" title="Ubicación"  width="40%">
+    <p class="text-center">Ubicación: Villa Tesei 723 Hurlingham</p>
+    <table id="lista_contactos" class="table">
+      <tr><th>Teléfono: </th><td>(+54)11-3757-0972/(+54)11-8650-5478</td></tr>
+      <tr><th>Gmail: </th><td>sirvancio.hamburguesas@gmail.com</td></tr>
+      <tr><th>Horarios: </th><td>Lunes a Sábados 10:00-13:00/19:00-22:00</td></tr>
+    </table>
+    <h4>Pedí delivery en...</h4>
+    <ul class="list-group text-center">
+      <li class="list-group-item list-group-item-danger">PedidosYa</li>
+      <li class="list-group-item list-group-item-warning">Glovo</li>
+      <li class="list-group-item list-group-item-primary">Wabi</li>
+    </ul>
+    <p id="last_data" class="text-center">Hamburguesería Sirvancio | Página por: lucian.coniglio@gmail.com</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TP1 CIU (menu)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet_menu.css">
+  <link rel="stylesheet" href="general_stylesheet.css">
+  <script src="js_menu.js"></script>
+</head>
+<body>
+  <header id="header">
+    <a class="index btn" href="tp1_index_(lucian_coniglio).html">Volver al índice</a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><button class="btn btn-default" type="button" onclick="temaOscuro()">Cambiar tema a oscuro</button></li>
+      <li class="nav-item"><button class="btn btn-default" type="button" onclick="temaClaro()">Cambiar tema a claro</button></li>
+    </ul>
+    <h1 class="text-center">Sirvancio</h1>
+    <h6 class="text-center">Hamburguesería</h3>
+    <nav class="navbar">
+      <div class="container-fluid justify-content-center">
+        <ul id="navegador" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link disabled text-center" href="#">Ir al menú principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="tp1_platos_(lucian_coniglio).html">Nuestras hamburguesas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="tp1_contacto_(lucian_coniglio).html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+</nav>
+  </header>
+  <article id="articulo">
+    <h3 class="text-center">Opciones del día</h3>
+    <table id="tabla_opciones" class="table table-borderless">
+      <tr>
+        <th><h6 class="text-center captions">Volcánica</h6></th>
+        <th><h6 class="text-center captions">Sirvurger</h6></th>
+        <th><h6 class="text-center captions">NotSirvance</h6></th>
+      </tr>
+      <tr>
+        <td><img src="http://www.3copas.com.ar/sites/default/files/styles/slider_800/public/novedades/2017/2/burguer15.jpg?itok=NPfksxU1" class="img-fluid" alt="opcion 1" title="Volcánica"></td>
+        <td><img src="https://www.clarin.com/img/2021/05/20/la-hamburguesa-triple-cheese-bacon___Lj4vcOHr__640x361__1.jpg" class="img-fluid" alt="opcion 2" title="Sirvurger"></td>
+        <td><img src="https://www.infobae.com/new-resizer/xHORBTTOvi76_TX7OOanBUblR-0=/1200x900/filters:format(webp):quality(85)//arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FJKXKQKMMJBV7KQ7XQ3YNFO7LU.jpg" class="img-fluid" alt="opcion 3" title="NotSirvance"></td>
+      </tr>
+    </table>
+  </article>
+  <footer id="footer">
+    <h4>Encuéntranos en...</h4>
+    <ul id="lista_redes" class="list-group list-group-flush">
+      <li class="list-group-item list-group-item-primary"> Facebook</li>
+      <li class="list-group-item list-group-item-danger"> Instagram</li>
+    </ul>
+    <!-- AVISO: La ubicación es intencionalmente imprecisa -->
+    <img src="https://www.trafictec.com/images/google_maps02.png" class="img-thumbnail" alt="Mapa al local" title="Ubicación"  width="40%">
+    <p class="text-center">Ubicación: Villa Tesei 723 Hurlingham</p>
+    <table id="lista_contactos" class="table">
+      <tr><th>Teléfono: </th><td>(+54)11-3757-0972/(+54)11-8650-5478</td></tr>
+      <tr><th>Gmail: </th><td>sirvancio.hamburguesas@gmail.com</td></tr>
+      <tr><th>Horarios: </th><td>Lunes a Sábados 10:00-13:00/19:00-22:00</td></tr>
+    </table>
+    <h4>Pedí delivery en...</h4>
+    <ul class="list-group text-center">
+      <li class="list-group-item list-group-item-danger">PedidosYa</li>
+      <li class="list-group-item list-group-item-warning">Glovo</li>
+      <li class="list-group-item list-group-item-primary">Wabi</li>
+    </ul>
+    <p id="last_data" class="text-center">Hamburguesería Sirvancio | Página por: lucian.coniglio@gmail.com</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TP1 CIU (platos)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="general_stylesheet.css">
+  <link rel="stylesheet" href="stylesheet_platos.css">
+  <script src="js_platos.js"></script>
+  <style>
+    #tabla_opciones {background-color: rgb(240,240,240); border-radius: 5px}
+  </style>
+</head>
+<body>
+  <header id="header">
+    <a class="index btn" href="tp1_index_(lucian_coniglio).html">Volver al índice</a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><button class="btn btn-default" type="button" onclick="temaOscuro()">Cambiar tema a oscuro</button></li>
+      <li class="nav-item"><button class="btn btn-default" type="button" onclick="temaClaro()">Cambiar tema a claro</button></li>
+    </ul>
+    <h1 class="text-center">Sirvancio</h1>
+    <h6 class="text-center">Hamburguesería</h3>
+    <nav class="navbar">
+      <div class="container-fluid justify-content-center">
+        <ul id="navegador" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-center" href="tp1_menu_(lucian_coniglio).html">Ir al menú principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center disabled" href="#">Nuestras hamburguesas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="tp1_contacto_(lucian_coniglio).html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <article id="articulo">
+    <h3>Nuestras hamburguesas</h3>
+    <h6>Todas vienen con papas francesas</h4>
+    <table id="tabla_opciones" class="table">
+      <tr>
+        <th>La Bestia</th>
+        <td>Triple carne con queso cheddar, cebolla caramelizada, salsa barbacoa y panceta</td>
+        <td>$1300</td>
+      </tr>
+        <th>Volcánica</th>
+        <td>Doble carne con queso cheddar, salsa de jalapeño, cebolla morada y panceta</td>
+        <td>$1200</td>
+      <tr>
+        <th>Paltiza</th>
+        <td>Doble carne con queso danbo, guacamole, tomate, lechuga y cebolla caramelizada</td>
+        <td>$1200</td>
+      </tr>
+      <tr>
+        <th>Sirvurger</th>
+        <td>Triple carne con queso cheddar, salsa de queso fundido, rodajas de lever wurst, panceta y salsa barbacoa</td>
+        <td>$1300</td>
+      </tr>
+      <tr>
+        <th>NotSirvance</th>
+        <td>Medallón NotBurger con queso danbo, salsa NotMayo (a elección), tomate, lechuga y cebolla morada</td>
+        <td>$1100</td>
+      </tr>
+      <tr>
+        <th>Mini-bestia</th>
+        <td>Hamburguesa simple con queso cheddar, cebolla caramelizada, salsa barbacoa y panceta</td>
+        <td>$1150</td>
+      </tr>
+      <tr>
+        <th>Tradicional</th>
+        <td>Hamburguesa simple con jamón, queso danbo, lechuga y tomate</td>
+        <td>$1100</td>
+      </tr>
+      <tr>
+        <th>Bittersweet</th>
+        <td>Doble carne con queso cheddar, salsa de mostaza con miel, cebolla caramelizada y panceta</td>
+        <td>$1000</td>
+      </tr>
+      <tr>
+        <th>Gallinero</th>
+        <td>Doble de pollo con queso danbo, salsa ketchup, lechuga, tomate y huevo duro</td>
+        <td>$1200</td>
+      </tr>
+      <tr>
+        <th>Burga Jr.</th>
+        <td>Hamburguesa chica con queso cheddar y salsa a elección</td>
+        <td>$1000</td>
+      </tr>
+    </table>
+  </article>
+  <footer id="footer">
+    <h4>Encuéntranos en...</h4>
+      <ul id="lista_redes" class="list-group list-group-flush">
+        <li class="list-group-item list-group-item-primary"> Facebook</li>
+        <li class="list-group-item list-group-item-danger"> Instagram</li>
+      </ul>
+    <!-- AVISO: La ubicación es intencionalmente imprecisa -->
+    <img src="https://www.trafictec.com/images/google_maps02.png" class="img-thumbnail" alt="Mapa al local" title="Ubicación"  width="40%">
+    <p class="text-center">Ubicación: Villa Tesei 723 Hurlingham</p>
+    <table id="lista_contactos" class="table">
+      <tr><th>Teléfono: </th><td>(+54)11-3757-0972/(+54)11-8650-5478</td></tr>
+      <tr><th>Gmail: </th><td>sirvancio.hamburguesas@gmail.com</td></tr>
+      <tr><th>Horarios: </th><td>Lunes a Sábados 10:00-13:00/19:00-22:00</td></tr>
+    </table>
+    <h4>Pedí delivery en...</h4>
+    <ul class="list-group text-center">
+      <li class="list-group-item list-group-item-danger">PedidosYa</li>
+      <li class="list-group-item list-group-item-warning">Glovo</li>
+      <li class="list-group-item list-group-item-primary">Wabi</li>
+    </ul>
+    <p id="last_data" class="text-center">Hamburguesería Sirvancio | Página por: lucian.coniglio@gmail.com</p>
+  </footer>
+</body>
+</html>

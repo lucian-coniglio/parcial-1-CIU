@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://previews.123rf.com/images/melazerg/melazerg1701/melazerg170100082/71022429-lindo-fondo-transparente-de-apetitosas-hamburguesas-ilustraci%C3%B3n-a-mano.jpg");
+    background-size: cover;
+    height: 300px;
+    font-family: "Lucida Handwriting";
+    color: rgb(50,0,0);
+  }
+  #fondo {
+    border: inset 3px brown;}
+  #carousel {
+    border-style: outset;
+    border-width: 4px;
+    border-color: brown;
+    border-radius: 2px;
+  }
+  a:link {
+    color: rgb(150,0,0);
+    background-color: white;
+  }
+  
+  a:visited {
+    color: rgb(150,100,100);
+    background-color: white;
+  }
+  
+  a:hover {
+    color: rgb(255,0,0);
+    background-color: grey;
+  }
+  
+  a:active {
+    color: rgb(50,0,0);
+  }

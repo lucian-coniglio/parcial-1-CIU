@@ -1,0 +1,38 @@
+.index {
+    font-size: 12px;
+  }
+  .img-thumbnail {
+    border: solid 1px grey;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  /*El estilo viene en tema claro como predeterminado*/
+  header {
+    background-color: lightgrey;
+    color: "black";
+    border: inset 2px grey;
+  }
+  footer {
+    background-color: lightgrey;
+    color: "black";
+    border: inset 2px grey;
+  }
+  
+  #last_data {border-top: solid 1px grey}
+  
+  a:link {
+    color: rgb(140,140,140);
+  }
+  a:visited {
+    color: rgb(140,140,140);
+  }
+  a:hover {
+    color: rgb(50,50,50);
+  }
+  a:active {
+    color: rgb(0,0,0);
+  }

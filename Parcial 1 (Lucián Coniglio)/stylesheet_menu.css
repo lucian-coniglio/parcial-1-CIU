@@ -1,0 +1,19 @@
+article img {
+  border: solid 1px black;
+  border-radius: 3px;
+  margin-bottom: 3px;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.captions {margin-top: 20px;}
+
+body {
+  background-image: url("https://previews.123rf.com/images/katrink03/katrink031709/katrink03170900012/85572829-patr%C3%B3n-transparente-de-vector-de-hamburguesas-de-contorno-negro-fondo-para-banner-embalaje-men%C3%BA-.jpg");
+  background-size: cover;
+  height: 300px;
+  font-family: "Lucida Handwriting";
+  color: black;
+}

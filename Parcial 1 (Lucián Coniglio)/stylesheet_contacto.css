@@ -1,0 +1,8 @@
+.escritura {font-family: "Times New Roman", Times, serif;}
+body {
+  background-color: rgb(240,240,240);
+  background-size: cover;
+  height: 300px;
+  font-family: "Lucida Handwriting";
+  color: black;
+}
